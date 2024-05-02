@@ -1,0 +1,220 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #ccc;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+.left-section {
+	display: flex;
+	align-items: center;
+}
+
+.right-section {
+	display: flex;
+	align-items: center;
+}
+
+.email,
+.phone {
+	margin-left: 20px;
+}
+
+.main-content {
+	background-color: white;
+	padding: 20px;
+	width: 50%; /* Sesuaikan lebar sesuai kebutuhan */
+	margin: 0 auto; /* Membuatnya berada di tengah */
+	text-align: center; /* Mengatur konten di dalamnya agar berada di tengah */
+}
+
+.logo {
+	margin-bottom: 20px;
+	display: inline-block; /* Agar dapat diatur posisinya di tengah */
+}
+
+.search {
+	display: inline-block; /* Agar dapat diatur posisinya di tengah */
+}
+
+.search-input {
+	padding: 8px;
+	border: 1px solid #000;
+	border-right: none;
+	border-radius: 4px 0 0 4px;
+}
+
+.cart-button {
+	background-color: orange;
+	color: white;
+	border: 1px solid #000;
+	padding: 8px 20px;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+}
+
+.navigation {
+	background-color: #86c2ff; /* Blue background */
+	padding: 10px 0;
+	text-align: center; /* Menempatkan navigasi di tengah */
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul li {
+	display: inline-block; /* Menetapkan item list menjadi inline block untuk memberikan spasi */
+	margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+	margin-right: 0; /* Menghilangkan margin kanan untuk item terakhir */
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.find-cartridges h2 {
+	color: black !important;
+}
+
+.find-cartridges {
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.find-text {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.button-group {
+	margin-bottom: 20px;
+}
+
+.blue-button {
+	background-color: #1e90ff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.serial-button {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.cartridge-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.cartridge-form input {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.cartridge-form input:last-child {
+	margin-right: 0;
+}
+
+.find-button {
+	background-color: orange;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.find-text {
+	font-size: 24px;
+	font-weight: bold; /* Menjadikan teks tebal */
+	margin-bottom: 20px;
+}
+
+.find-cartridges {
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	background-image: url("bg.jpeg"); /* Ganti 'nama_gambar.jpg' dengan nama gambar yang Anda inginkan */
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px; /* Atur padding sesuai kebutuhan */
+	border-radius: 10px; /* Atur border radius sesuai kebutuhan */
+}
+
+.featured-products {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center; /* Mengatur teks dan produk di tengah */
+}
+
+.featured-products h2 {
+	color: black;
+}
+
+.product-container {
+	display: flex;
+	justify-content: center; /* Menyusun produk di tengah secara horizontal */
+}
+
+.product {
+	text-align: center;
+	margin: 0 20px; /* Atur jarak horizontal antara produk */
+}
+
+.product img {
+	width: 150px; /* Sesuaikan ukuran gambar */
+	height: auto; /* Biarkan tinggi gambar disesuaikan secara otomatis */
+	display: block;
+	margin: 0 auto 10px; /* Membuat gambar berada di tengah */
+}
+
+.product-name {
+	font-weight: bold;
+	color: black;
+}
+
+.price {
+	color: black;
+}
+
+.add-to-cart {
+	background-color: orange;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+	width: 100%; /* Membuat tombol memenuhi lebar */
+}
